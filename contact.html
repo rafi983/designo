@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/styles.css" />
+
+    <title>Welcome to Designo</title>
+  </head>
+  <body>
+    <!-- NAVIGATION -->
+    <nav class="navbar">
+      <div class="navbar-flex container">
+        <a href="/"
+          ><img
+            src="/assets/shared/desktop/logo-dark.png"
+            class="logo"
+            alt="Designo Logo"
+        /></a>
+        <div class="main-menu-items">
+          <ul class="menu-items-list">
+            <li><a href="/about.html">Our Company</a></li>
+            <li><a href="/locations.html">Locations</a></li>
+            <li><a href="/contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <!-- MOBILE MENU -->
+        <div class="mobile-menu">
+          <!-- HAMBURGER BUTTON -->
+          <div class="mobile-menu-toggle">
+            <img
+              src="/assets/shared/mobile/icon-hamburger.svg"
+              alt="menu button"
+              class="hamburger"
+            />
+            <img
+              src="/assets/shared/mobile/icon-close.svg"
+              alt="close button"
+              class="close hide"
+            />
+          </div>
+          <!-- OVERLAY BEHIND MOBILE MENU -->
+          <div class="mobile-menu-modal"></div>
+          <!-- MOBILE MENU ITEMS LIST -->
+          <div class="mobile-menu-items">
+            <ul class="mobile-menu-list">
+              <li><a href="/about.html">Our Company</a></li>
+              <li><a href="/locations.html">Locations</a></li>
+              <li><a href="/contact.html">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Contact Form -->
+
+    <sections class="contact-form">
+      <div class="container">
+        <div class="background">
+          <div class="text">
+            <h1>Contact Us</h1>
+            <p>
+              Contact us Ready to take it to the next level? Let’s talk about
+              your project or idea and find out how we can help your business
+              grow. If you are looking for unique digital experiences that’s
+              relatable to your users, drop us a line.
+            </p>
+          </div>
+          <div class="form">
+            <form action="submit" id="contact-form">
+              <div class="form-input name-input">
+                <label for="name"></label>
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  placeholder="Name"
+                  required
+                />
+                <p class="error-message">Please let us know what to call you</p>
+              </div>
+              <div class="form-input email-input">
+                <label for="email"></label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="Email"
+                  required
+                />
+                <p class="error-message">Please enter a valid email address</p>
+              </div>
+              <div class="phone-input">
+                <label for="phone"></label>
+                <input type="tel" id="phone" name="phone" placeholder="Phone" />
+
+                <p class="error-message">Please enter a valid phone number</p>
+              </div>
+              <label for="message"></label>
+
+              <textarea
+                class="message"
+                for="message"
+                id="message"
+                name="message"
+                required
+                placeholder="Your message"
+                maxlength="5000"
+              ></textarea>
+              <div class="button-div">
+                <button type="submit" class="btn-light">Submit</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </sections>
+
+    <!-- LOCATIONS SECTION -->
+
+    <section class="attributes locations">
+      <div class="container">
+        <div class="bg-leaf">
+          <img src="/assets/shared/desktop/bg-pattern-leaf.svg" alt="" />
+        </div>
+        <div class="flex-container">
+          <div class="item-container">
+            <div class="img-container box1">
+              <img
+                src="/assets/shared/desktop/illustration-canada.svg"
+                alt=""
+              />
+            </div>
+            <div class="content">
+              <h3>Canada</h3>
+
+              <a href="/locations.html"
+                ><div class="btn-dark">See Location</div></a
+              >
+            </div>
+          </div>
+
+          <div class="item-container">
+            <div class="img-container box2">
+              <img
+                src="/assets/shared/desktop/illustration-australia.svg"
+                alt=""
+              />
+            </div>
+            <div class="content">
+              <h3>Australia</h3>
+              <a href="/locations.html"
+                ><div class="btn-dark">See Location</div></a
+              >
+            </div>
+          </div>
+
+          <div class="item-container">
+            <div class="img-container box3">
+              <img
+                src="/assets/shared/desktop/illustration-united-kingdom.svg"
+              />
+            </div>
+            <div class="content">
+              <h3>United Kingdom</h3>
+              <a href="/locations.html"
+                ><div class="btn-dark">See Location</div></a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+
+    <footer class="footer" id="about-footer">
+      <div class="container">
+        <nav class="footer-nav">
+          <img
+            class="logo"
+            src="/assets/shared/desktop/logo-light.png"
+            alt="logo"
+          />
+          <div class="divider-1"></div>
+          <ul class="footer-nav-menu">
+            <a href="/about.html"
+              ><li class="footer-nav-item">Our Company</li></a
+            >
+            <a href="/locations.html"
+              ><li class="footer-nav-item">Locations</li></a
+            >
+            <a href="/contact.html"><li class="footer-nav-item">Contact</li></a>
+          </ul>
+        </nav>
+        <div class="divider-2"></div>
+        <div class="footer-info-container">
+          <div class="address">
+            <p>
+              <strong>Designo Central Office </strong> <br />3886 Wellington
+              Street<br />
+              Toronto, Ontario M9C 3J5
+            </p>
+          </div>
+          <div class="contact-numbers">
+            <p>
+              Contact Us (Central Office)<br />
+              <span>P : +1 253-863-8967 <br />M : contact@designo.co </span>
+            </p>
+          </div>
+          <div class="socials">
+            <a href="#"
+              ><img src="/assets/shared/desktop/icon-facebook.svg" alt=""
+            /></a>
+            <a href="#"
+              ><img src="/assets/shared/desktop/icon-youtube.svg" alt=""
+            /></a>
+            <a href="#"
+              ><img src="/assets/shared/desktop/icon-twitter.svg" alt=""
+            /></a>
+            <a href="#"
+              ><img src="/assets/shared/desktop/icon-pinterest.svg" alt=""
+            /></a>
+            <a href="#"
+              ><img src="/assets/shared/desktop/icon-instagram.svg" alt=""
+            /></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/script.js "></script>
+  </body>
+</html>

@@ -1,0 +1,38 @@
+[
+	{
+		"id": 1,
+		"imageUrl": "/assets/web-design/desktop/image-express.jpg",
+		"heading": "Express",
+		"text": "A multi-carrier shipping website for ecommerce businesses"
+	},
+	{
+		"id": 2,
+		"imageUrl": "/assets/web-design/desktop/image-transfer.jpg",
+		"heading": "Transfer",
+		"text": "Site for low-cost money transfers and sending money within seconds"
+	},
+	{
+		"id": 3,
+		"imageUrl": "/assets/web-design/desktop/image-photon.jpg",
+		"heading": "Photon",
+		"text": "A state-of-the-art music player with high-resolution audio and DSP effects"
+	},
+	{
+		"id": 4,
+		"imageUrl": "/assets/web-design/desktop/image-builder.jpg",
+		"heading": "Builder",
+		"text": "Connects users with local contractors based on their location"
+	},
+	{
+		"id": 5,
+		"imageUrl": "/assets/web-design/desktop/image-blogr.jpg",
+		"heading": "Blogr",
+		"text": "Blogr is a platform for creating an online blog or publication"
+	},
+	{
+		"id": 6,
+		"imageUrl": "/assets/web-design/desktop/image-camp.jpg",
+		"heading": "Camp",
+		"text": "Get expert training in coding, data,design, and digital marketing"
+	}
+]
