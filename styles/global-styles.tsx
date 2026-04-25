@@ -1,4 +1,8 @@
-/*---
+"use client";
+
+import { createGlobalStyle } from "styled-components";
+
+export const GlobalStyles = createGlobalStyle`/*---
 Josh's Custom CSS Reset
 https://www.joshwcomeau.com/css/custom-css-reset/
 ---*/
@@ -1560,3 +1564,4 @@ MEDIA QUERIES
 		}
 	}
 }
+`;
